@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: todoapp
-    image: eldard/todoapp3.0.0
+    image: eldard/todoapp:3.0.0
     ports:
     - containerPort: 8080
     livenessProbe:
